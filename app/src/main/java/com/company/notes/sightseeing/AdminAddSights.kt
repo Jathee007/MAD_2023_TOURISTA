@@ -14,7 +14,7 @@ class AdminAddSights : AppCompatActivity() {
     private lateinit var databaseReference: DatabaseReference
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
+        /*add sideseeing part*//*add sideseeing part*/
 
         binding = ActivityAdminAddSightsBinding.inflate(layoutInflater)
         setContentView(binding.root)
