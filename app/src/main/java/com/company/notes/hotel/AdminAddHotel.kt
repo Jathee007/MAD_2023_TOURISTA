@@ -10,6 +10,7 @@ import com.company.notes.sightseeing.AdminMainSightActivity
 import com.google.firebase.database.*
 
 class AdminAddHotel : AppCompatActivity() {
+    /*update branch add hotel part*/
     private lateinit var binding: ActivityAdminAddHotelBinding
     private lateinit var firebaseDatabase: FirebaseDatabase
     private lateinit var databaseReference: DatabaseReference
