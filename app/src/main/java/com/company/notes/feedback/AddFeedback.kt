@@ -13,6 +13,7 @@ import android.os.Handler
 import android.os.Looper
 
 class AddFeedback : AppCompatActivity() {
+    /*add feedback */
     lateinit var binding: ActivityAddPaymentBinding
     private lateinit var firebaseDatabase: FirebaseDatabase
     private lateinit var databaseReference: DatabaseReference
