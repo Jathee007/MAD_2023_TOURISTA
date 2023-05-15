@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    android:background="@drawable/background"
+    android:elevation="3dp"
+    app:cardCornerRadius="50dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/ivsightImage"
+            android:layout_width="match_parent"
+            android:layout_height="279dp"
+            android:background="@color/white"
+            android:contentDescription="Image"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/tvsightTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivsightImage"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="3dp"
+            android:fontFamily="@font/saira_black"
+            android:padding="4dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="Place Title"
+            android:gravity="center"/>
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

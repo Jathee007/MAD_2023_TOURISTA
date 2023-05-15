@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    android:elevation="3dp"
+    app:cardCornerRadius="50dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="358dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/ivhotelImage"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:background="@color/white"
+            android:contentDescription="Image"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/tvhotelTitle"
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivhotelImage"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="3dp"
+            android:gravity="center"
+            android:padding="4dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:text="Hotel Title" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
